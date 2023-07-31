@@ -1,0 +1,109 @@
+* {box-sizing:border-box}
+
+#main {
+    border-left:2px solid rgb(172, 172, 174) ;
+    border-right:2px solid rgb(172, 172, 174) ;
+    border-top:2px solid rgb(172, 172, 174) ;
+}
+
+#heading {
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(237, 231, 231);
+    border-bottom:2px solid rgb(172, 172, 174);
+}
+
+.category-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.category-item {
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.category-item img {
+    width: 100px;
+    height: 90px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.category-item p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 96, 212);
+    display: block;
+}
+
+#coupon-details {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+#coupon-details {
+    text-align: center;
+}
+
+#cashback-details {
+    text-align: center;
+}
+
+#coupon {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(132, 132, 218);
+    padding-left: 200px;
+    padding-right: 200px;
+    cursor: pointer;
+}
+
+#cashback {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(132, 132, 218);
+    padding-right: 100px;
+    padding-left: 200px;
+    cursor: pointer;
+}
+
+
+.clicked-heading {
+    border-bottom:2px solid rgb(132, 132, 218) ;
+    
+}
+
+
+#corresponding-container .coupon-item {
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px dashed #767474;
+    border-bottom: 1px dashed #767474;
+    padding-top: 10px;
+    padding-right: 10px;
+}  
+
+.store-logo {
+    height: 80px;
+    width:130px;
+    text-align: center;
+}
+
+.coupon-description{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
